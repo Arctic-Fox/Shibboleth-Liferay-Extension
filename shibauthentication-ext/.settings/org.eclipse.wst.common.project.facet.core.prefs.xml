@@ -1,0 +1,10 @@
+<root>
+  <facet id="liferay.ext">
+    <node name="libprov">
+      <attribute name="provider-id" value="com.liferay.ide.eclipse.plugin.ext.libraryProvider"/>
+    </node>
+    <node name="liferay-plugin-project">
+      <attribute name="sdk-name" value="liferay-plugins-sdk-6.0.6-20110225"/>
+    </node>
+  </facet>
+</root>
