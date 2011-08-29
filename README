@@ -26,6 +26,12 @@ Restart Liferay
 
 Next, download the Shibboleth-Liferay-Hook and follow the installation instructions.
 
+*NOTE*********************************************
+
+And this is VERY important.
+
+The module is built assuming your Shibboleth Identity Provider is sending you the credentials using HTTP Attributes.  This isn't always the case.  Sometimes it's sent as HTTP Headers, so be sure you know how your metadata is coming and be prepared to modify the source code accordingly!
+**************************************************
 /*
  Copyright 2011 Johns Hopkins University
 
